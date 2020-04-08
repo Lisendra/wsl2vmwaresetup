@@ -47,7 +47,8 @@ This fake shell will intercept calls to ```wsl.exe bash ...``` and forward them 
 
 Add the following, be sure to replace ```<YOURUSER>``` with your WSL2 Linux username
 
-```#!/bin/bash
+```
+#!/bin/bash
 # your WSL2 username
 UNAME="<YOURUSER>"
 
@@ -115,7 +116,8 @@ Everything should be in place. Fire up WSL via the MS Terminal or just ```wsl.ex
 
 You can test by running the following in WSL2:
 
-```systemctl is-active dbus
+```
+systemctl is-active dbus
 active
 ```
 
